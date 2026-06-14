@@ -1,0 +1,11 @@
+Al consultar la ruta GET /reportes, el servidor devuelve todos los reportes almacenados en el array reportes. Si previamente se registraron reportes mediante la ruta POST /reportes, estos aparecerán en formato JSON. Esto permite consultar la información guardada mientras el servidor esté en ejecución.
+
+Ejemplo de respuesta:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
